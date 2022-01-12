@@ -440,7 +440,7 @@ nav ul li a img{
   background-image: url(../img/evasky-spawn);
   background-repeat: no-repeat;
   background-size: 125rem;
-  height: 44rem;
+  height: 35rem;
   justify-content: space-around;
 }
 
@@ -470,4 +470,53 @@ nav ul li a img{
   padding-top: 8rem;
   text-shadow: var(--secondary) 0.1rem 0.1rem 0.1rem;
   width: 50rem;
+}
+
+/* carte */
+
+#carte-sec{
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.carte{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: rgb(0, 38, 87);
+  margin-left: 2rem;
+  height: 25rem;
+  width: 20rem;
+  border-radius: 3rem 0.2rem 3rem 0.2rem;
+  box-shadow: black 0.1rem 1rem 01rem;
+}
+
+.rond{
+  margin-top: 1rem;
+  border-radius: 100%;
+  background-color: white;
+  height: 5rem;
+  width: 5rem;
+  align-self: center;
+}
+
+.titre1{
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  width: 90%;
+  color: white;
+}
+
+.titre2{
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  text-align: center;
+  width: 90%;
 }
