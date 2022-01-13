@@ -493,15 +493,20 @@ nav ul li a img{
   width: 20rem;
   border-radius: 3rem 0.2rem 3rem 0.2rem;
   box-shadow: black 0.1rem 1rem 01rem;
+  transition: all 0.5s ease-in-out;
 }
 
+
 .rond{
+  display: flex;
+  justify-content: center;
   margin-top: 1rem;
   border-radius: 100%;
   background-color: white;
   height: 5rem;
   width: 5rem;
   align-self: center;
+  overflow: hidden;
 }
 
 .titre1{
@@ -520,3 +525,22 @@ nav ul li a img{
   text-align: center;
   width: 90%;
 }
+
+#img-carte{
+  align-self: center;
+  width: 3rem;
+}
+
+#img-carte2{
+  align-self: center;
+  width: 3rem;
+}
+
+#img-carte3{
+  align-self: center;
+  width: 5rem;
+}
+
+
+
+
